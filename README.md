@@ -1,0 +1,1 @@
+This is my second Odin Project where i'm going to create a website from scratch using what i have learnt in CSS and html
