@@ -17,6 +17,7 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 ul{
     list-style-type: none;
@@ -35,8 +36,8 @@ h1{
 }
 .nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 300px 0 300px;
 }
 .intro{
@@ -56,7 +57,7 @@ h1{
     font-weight: bold;
     color: #F9FAF8;
 }
-button{
+.button1{
     background-color: #3882f6;
     padding: 8px 20px;
     color: #E5E7EB;
@@ -80,6 +81,10 @@ button{
     gap: 20px;
     align-items: center;
     text-align: center;
+    padding: 0 300px;
+}
+.info span p{
+    color: #1f2937;
 }
 span{
     width: 200px;
@@ -89,4 +94,71 @@ h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+.section3{
+    background-color: #e5ebeb;
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.section3 p{
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+div h3{
+    text-align: right;
+}
+
+.window{
+    background-color: #3882f6;
+    border-radius: 25px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.section4{
+    padding: 100px 300px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #F9FAF8;
+}
+span p{
+    flex-wrap: nowrap;
+    color: #e5ebeb;
+    font-size: 19px;
+    margin: 0;
+}
+
+.button2{
+    border-width: 2px;
+    border-color: white;
+    background-color: #3882f6;
+    border-radius: 25px;
+    padding: 8px 15px;
+    color: #E5E7EB;
+    font-weight: 800;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    flex: 1;
+}
+
+span h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #e5ebeb;
+    margin: 0;
 }
